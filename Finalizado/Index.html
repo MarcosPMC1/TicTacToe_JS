@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jogo da Velha</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="container">
+        
+        <div id="menu">
+            <h1>Jogo da Velha</h1>
+            <h1 id="msg"></h1>
+            <button onclick="reiniciar()">Reiniciar</button>
+        </div>
+        <div class="game">
+            <div onclick="clicked(0)" class="cell" id="cell0"></div>
+            <div onclick="clicked(1)" class="cell" id="cell1"></div>
+            <div onclick="clicked(2)" class="cell" id="cell2"></div>
+            <div onclick="clicked(3)" class="cell" id="cell3"></div>
+            <div onclick="clicked(4)" class="cell" id="cell4"></div>
+            <div onclick="clicked(5)" class="cell" id="cell5"></div>
+            <div onclick="clicked(6)" class="cell" id="cell6"></div>
+            <div onclick="clicked(7)" class="cell" id="cell7"></div>
+            <div onclick="clicked(8)" class="cell" id="cell8"></div>
+        </div>
+    </div>
+</body>
+</html>
